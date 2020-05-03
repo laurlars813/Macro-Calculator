@@ -1,0 +1,2 @@
+# Macro-Calculator
+Calculates macros 
