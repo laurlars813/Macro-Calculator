@@ -1,5 +1,3 @@
-# Macro-Calculator
-Calculates macros 
 #determine ideal calories
 #multiply by set percentages
 #Finally, divide your calorie amounts by its calorie-per-gram number.
@@ -34,10 +32,10 @@ def macros():
         print("Invalid Activity Level")
 
     calories = BMR * al
-    print("Your Maintanence Caloreis are: " + str(calories))
-    fats = (.20 * calories/9)
+    print("Your Maintenance Calories are: " + str(calories))
+    fats = (.25 * calories/9)
     carbs = (.50 * calories/4)
-    protein = round(.40 * calories/4, 3)
+    protein = round(.25 * calories/4, 3)
     print("Fats " + str(round(fats, 2)), "Carbs " + str(round(carbs, 2)), "Protein " + str(round(protein,2)))
     return
 
